@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a3d9046-cbd0-4b1c-9d12-d5c1e5c51651" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BeginningPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BeginningPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-WebDriver/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium-WebDriver/.idea/Selenium-WebDriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium-WebDriver/.idea/Selenium-WebDriver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium-WebDriver/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium-WebDriver/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium-WebDriver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium-WebDriver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium-WebDriver/WebDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium-WebDriver/WebDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,61 +20,56 @@
     <session id="2132286866">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="492" />
-          <entry key="py" value="1032" />
+          <entry key="Python Console" value="633" />
+          <entry key="py" value="1300" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1524" />
+          <entry key="Python" value="1933" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="log" value="1" />
-          <entry key="py" value="1" />
+          <entry key="py" value="3" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="1" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HelloWorld.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <marker date="1539891808656" expanded="true" signature="118:139" ph="..." />
-                <marker date="1539891808656" expanded="true" signature="161:170" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/python_PDB.py">
+        <entry file="file://$PROJECT_DIR$/python_learning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <marker date="1541543198908" expanded="true" signature="50:51" ph="..." />
+                <marker date="1541543198908" expanded="true" signature="50:55" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,14 +93,15 @@
         <option value="$PROJECT_DIR$/das.py" />
         <option value="$PROJECT_DIR$/HelloWorld.py" />
         <option value="$PROJECT_DIR$/venv/python_PDB.py" />
+        <option value="$PROJECT_DIR$/python_learning.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -110,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +120,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.python_PDB">
+  <component name="RunManager" selected="Python.python_learning">
     <configuration name="HelloWord" type="PythonConfigurationType" factoryName="Python">
       <module name="BeginningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,13 +208,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python_learning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BeginningPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.HelloWord" />
       <item itemvalue="Python.HelloWorld" />
       <item itemvalue="Python.python_PDB" />
+      <item itemvalue="Python.python_learning" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_learning" />
         <item itemvalue="Python.python_PDB" />
       </list>
     </recent_temporary>
@@ -235,21 +257,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44547257" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44547257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77395904" weight="0.32907802" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994812" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77197623" weight="0.59574467" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49966952" weight="0.39858156" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4910432" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.8526107" visible="true" weight="0.18723404" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49041638" weight="0.32907802" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.84996694" weight="0.18723404" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1473893" side_tool="true" visible="true" weight="0.18723404" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2280238" side_tool="true" visible="true" weight="0.59574467" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -262,27 +285,25 @@
     <entry file="file://$PROJECT_DIR$/HelloWord.py" />
     <entry file="file://$PROJECT_DIR$/das.py" />
     <entry file="file://$USER_HOME$/GitHub/hello/HelloWord.py" />
-    <entry file="file://$PROJECT_DIR$/HelloWorld.py">
+    <entry file="file://$PROJECT_DIR$/HelloWorld.py" />
+    <entry file="file://$PROJECT_DIR$/feature4.txt" />
+    <entry file="file://$PROJECT_DIR$/geckodriver.log" />
+    <entry file="file://$PROJECT_DIR$/venv/python_PDB.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1055577769/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1539891808656" expanded="true" signature="118:139" ph="..." />
-            <marker date="1539891808656" expanded="true" signature="161:170" ph="..." />
-          </folding>
+        <state relative-caret-position="86">
+          <caret line="488" column="4" selection-start-line="488" selection-start-column="4" selection-end-line="488" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/python_PDB.py">
+    <entry file="file://$PROJECT_DIR$/python_learning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <marker date="1541543198908" expanded="true" signature="50:51" ph="..." />
+            <marker date="1541543198908" expanded="true" signature="50:55" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

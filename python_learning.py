@@ -5,6 +5,8 @@ def CountingToEleven():
     # Code block 1
     while count < 11 :
         print(count)
+
+        
         count = count + 1
     # Code block 2
     if count == 11 :
