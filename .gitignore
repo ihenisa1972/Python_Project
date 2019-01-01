@@ -1,2 +1,7 @@
 # .gitignore
 .idea/
+Lib/
+Scripts/
+pip-selfcheck.json
+pyvenv.cfg
+
