@@ -5,6 +5,18 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+# Create Secure Connection Class
+class SecureConnection:
+    pass
+
+# MIME Email Class
+class MimeEmail:
+    pass
+
+# Email Attachement Class
+class EmailAttachment:
+    pass
+
 # Setting up secured connection
 '''
 sender_email = "ihenisa1972@gmail.com"
