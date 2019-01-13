@@ -6,36 +6,51 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # Create Secure Connection Class
-class Email:
+class EmailObject:
 
     # Initializer
     def __init__(self, password):
-        sender_email = "ihenisa1972@gmail.com"
-        receiver_email = "ihenisapython@gmail.com"
+        self.password = password
+        self.sender_email = "ihenisa1972@gmail.com"
+        self.receiver_email = "ihenisapython@gmail.com"
+        self.message = ""
 
-    # Secure Connection
-    def CreateConnection(self, sender_email, receiver_email, message):
+    # Secure Connection Plain Text
+    def CreateConnectionPlain(self):
         context = ssl.create_default_context()
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
-            server.login(sender_email, password)
-            server.sendmail(sender_email, receiver_email, message.as_string())
+            server.login(self.sender_email, self.password)
+            server.sendmail(self.sender_email, self.receiver_email, self.message)
+
+    # Secure Connection HTML
+    def CreateConnectionHTML(self):
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
+            server.login(self.sender_email, self.password)
+            server.sendmail(self.sender_email, self.receiver_email, self.message.as_string())
+
+    # Secure Connection Attachment
+    def CreateConnectionAttachment(self):
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
+            server.login(self.sender_email, self.password)
+            server.sendmail(self.sender_email, self.receiver_email, self.text)
 
     # Simple Email
     def CreateEmailText(self):
-        message = """\
+        self.message = """\
         Subject: Hi there
 
         This message is sent from Python."""
 
-    # MIME Email
-    def MimeEmail(self):
-        message = MIMEMultipart("alternative")
-        message["Subject"] = "multipart test"
-        message["From"] = sender_email
-        message["To"] = receiver_email
-
-    # Plain-text and HTML version
+     # Plain-text and HTML version
     def PlainTextAndHTMLVersion(self):
+        self.message = MIMEMultipart("alternative")
+        self.message["Subject"] = "multipart test"
+        self.message["From"] = self.sender_email
+        self.message["To"] = self.receiver_email
+
+        # Create the plain-text and HTML version of your message
         text = """\
         Hi,
         How are you?
@@ -59,20 +74,23 @@ class Email:
 
         # Add HTML/plain-text parts to MIMEMultipart message
         # The email client will try to render the last part first
-        message.attach(part1)
-        message.attach(part2)
+        self.message.attach(part1)
+        self.message.attach(part2)
+
 
     # Email with Attachment
     def EmailAttachment(self):
         # Create a multipart message and set headers
-        message = MIMEMultipart()
-        message["From"] = sender_email
-        message["To"] = receiver_email
-        message["Subject"] = subject
-        message["Bcc"] = receiver_email  # Recommended for mass emails
+        self.subject = "An email with attachment from Python"
+        self.body = "This is an email with attachment sent from Python"
+        self.message = MIMEMultipart()
+        self.message["From"] = self.sender_email
+        self.message["To"] = self.receiver_email
+        self.message["Subject"] = subject
+        selfmessage["Bcc"] = receiver_email  # Recommended for mass emails
 
         # Add body to email
-        message.attach(MIMEText(body, "plain"))
+        self.message.attach(MIMEText(body, "plain"))
 
         filename = "document.txt"  # In same directory as script
 
@@ -93,9 +111,18 @@ class Email:
         )
 
         # Add attachment to message and convert message to string
-        message.attach(part)
-        text = message.as_string()
+        self.message.attach(part)
+        self.text = self.message.as_string()
 
 
 if __name__ == "__main__":
     password = input("Type your password and press enter: ")
+
+    Email1 = EmailObject(password)
+    Email1.CreateEmailText()
+    Email1.CreateConnectionPlain()
+    Email1.PlainTextAndHTMLVersion()
+    Email1.CreateConnectionHTML()
+    Email1.EmailAttachment()
+    Email1.CreateConnectionAttachment()
+
