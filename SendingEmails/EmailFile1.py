@@ -5,7 +5,7 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-# Create Secure Connection Class
+# Email Class With all Bells and Whistles
 class EmailObject:
 
     # Initializer
@@ -43,7 +43,7 @@ class EmailObject:
 
         This message is sent from Python."""
 
-     # Plain-text and HTML version
+    # Plain-text and HTML version
     def PlainTextAndHTMLVersion(self):
         self.message = MIMEMultipart("alternative")
         self.message["Subject"] = "multipart test"
@@ -86,11 +86,11 @@ class EmailObject:
         self.message = MIMEMultipart()
         self.message["From"] = self.sender_email
         self.message["To"] = self.receiver_email
-        self.message["Subject"] = subject
-        selfmessage["Bcc"] = receiver_email  # Recommended for mass emails
+        self.message["Subject"] = self.subject
+        self.message["Bcc"] = self.receiver_email  # Recommended for mass emails
 
         # Add body to email
-        self.message.attach(MIMEText(body, "plain"))
+        self.message.attach(MIMEText(self.body, "plain"))
 
         filename = "document.txt"  # In same directory as script
 
